@@ -1,0 +1,23 @@
+{
+  "name": "autoqa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thumx83/autoqa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thumx83/autoqa/issues"
+  },
+  "homepage": "https://github.com/thumx83/autoqa#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.1.0"
+  }
+}
