@@ -1,1 +1,6 @@
-"describe('My First Test', () => { it('Visits Google', () => { cy.visit('https://www.google.com') }) })" 
+describe('Test Debug', () => {
+    it('Should visit Google', () => {
+      cy.visit('https://www.google.com');
+    });
+  });
+  

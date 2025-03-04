@@ -2,7 +2,7 @@ export default class LoginPage {
     elements = {
         usernameField: () => cy.get("input[name='loginKey']"),
         passwordField: () => cy.get("input[name='password']"),
-        loginButton: () => cy.get("button[type='submit']"),
+        loginButton: () => cy.xpath("//button[text()='Đăng nhập']"),
         successMessage: () => cy.contains("Welcome"),
         errorMessage: () => cy.contains("Invalid username or password"),
     };

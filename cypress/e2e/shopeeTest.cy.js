@@ -1,6 +1,8 @@
-import Checkout from "../../../pageObjects/Checkout";
-import LoginPage from "../../../pageObjects/LoginPage";
-import ShoppingPage from "../../../pageObjects/ShoppingPage";
+import Checkout from "../pageObjects/Checkout";
+import LoginPage from "../pageObjects/LoginPage";
+import ShoppingPage from "../pageObjects/ShoppingPage";
+// import './commands';
+
 
 const login = new LoginPage()
 const checkout = new Checkout()

@@ -1,12 +1,14 @@
 import LoginPage from '../pageObjects/LoginPage';
 
+const loginPage = new LoginPage()
+
 Cypress.Commands.add("checkResponsive", (viewport) => {
     cy.viewport(viewport);
     cy.reload();
 });
 Cypress.Commands.add("login", (username, password) => {
-    LoginPage.visit();
-    LoginPage.enterUsername(username);
-    LoginPage.enterPassword(password);
-    LoginPage.clickLogin();
+    loginPage.visit();
+    loginPage.enterUsername(username);
+    loginPage.enterPassword(password);
+    loginPage.clickLogin();
 });
